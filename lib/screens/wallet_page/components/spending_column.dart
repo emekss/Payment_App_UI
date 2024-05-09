@@ -15,44 +15,47 @@ class SpendingColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Row(
-          children: [
-            SpendingImageIcon(image: image),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  label,
-                  style: GoogleFonts.roboto(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w700,
-                    color: const Color.fromARGB(255, 11, 40, 80),
+    return Padding(
+      padding: const EdgeInsets.only(top: 10, bottom: 10, right: 10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Row(
+            children: [
+              SpendingImageIcon(image: image),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    label,
+                    style: GoogleFonts.roboto(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w700,
+                      color: const Color.fromARGB(255, 11, 40, 80),
+                    ),
                   ),
-                ),
-                Text(
-                  'until May 2024',
-                  style: GoogleFonts.roboto(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w400,
-                    color: const Color.fromARGB(255, 11, 40, 80),
+                  Text(
+                    'until May 2024',
+                    style: GoogleFonts.roboto(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w400,
+                      color: const Color.fromARGB(255, 11, 40, 80),
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        Text(
-          amount,
-          style: GoogleFonts.roboto(
-            fontSize: 14,
-            fontWeight: FontWeight.w700,
-            color: const Color.fromARGB(255, 11, 40, 80),
+                ],
+              ),
+            ],
           ),
-        )
-      ],
+          Text(
+            amount,
+            style: GoogleFonts.roboto(
+              fontSize: 14,
+              fontWeight: FontWeight.w700,
+              color: const Color.fromARGB(255, 11, 40, 80),
+            ),
+          )
+        ],
+      ),
     );
   }
 }

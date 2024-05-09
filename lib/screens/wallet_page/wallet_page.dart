@@ -67,7 +67,7 @@ class WalletScreen extends StatelessWidget {
             const SpendingColumn(
               label: 'Stack',
               amount: '20,000 USD',
-              image: 'assets/images/stack_icon.png',
+              image: 'assets/images/slack_icon.png',
             ),
             const SpendingColumn(
               label: 'Youtube',
