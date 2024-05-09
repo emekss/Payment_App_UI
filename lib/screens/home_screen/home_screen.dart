@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 import 'package:payment_app_ui/screens/home_screen/components/balance_card.dart';
 import 'package:payment_app_ui/screens/home_screen/components/transaction_card.dart';
 
+import 'components/transaction_column.dart';
 import 'components/user_row.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -49,7 +50,27 @@ class HomeScreen extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                   color: const Color.fromARGB(255, 11, 40, 80),
                 ),
-              )
+              ),
+              TransactionColumn(
+                onChanged: (bool) {},
+                tlabel: 'Contract Payment',
+                image: 'assets/images/fileicon.png',
+              ),
+              TransactionColumn(
+                onChanged: (bool) {},
+                tlabel: 'Online Payment',
+                image: 'assets/images/online.png',
+              ),
+              TransactionColumn(
+                onChanged: (bool) {},
+                tlabel: 'ATM Payment',
+                image: 'assets/images/pcard.png',
+              ),
+              TransactionColumn(
+                onChanged: (bool) {},
+                tlabel: 'Utility Payment',
+                image: 'assets/images/utility.png',
+              ),
             ],
           ),
         ),
