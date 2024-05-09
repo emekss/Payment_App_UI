@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:payment_app_ui/screens/wallet_page/components/spending_row.dart';
 
 import 'components/indicator.dart';
+import 'components/spending_column.dart';
 
 class WalletScreen extends StatelessWidget {
   const WalletScreen({super.key});
@@ -57,7 +58,22 @@ class WalletScreen extends StatelessWidget {
                 fontWeight: FontWeight.w700,
                 color: const Color.fromARGB(255, 11, 40, 80),
               ),
-            )
+            ),
+            const SpendingColumn(
+              label: 'Spotify',
+              amount: '30,000 USD',
+              image: 'assets/images/spotify_icon.png',
+            ),
+            const SpendingColumn(
+              label: 'Stack',
+              amount: '20,000 USD',
+              image: 'assets/images/stack_icon.png',
+            ),
+            const SpendingColumn(
+              label: 'Youtube',
+              amount: '10,000 USD',
+              image: 'assets/images/youtube_icon.png',
+            ),
           ],
         ),
       ),

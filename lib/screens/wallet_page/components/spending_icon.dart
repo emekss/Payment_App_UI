@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class SpendingIcon extends StatelessWidget {
   final IconData icon;
+
   const SpendingIcon({
     super.key,
     required this.icon,

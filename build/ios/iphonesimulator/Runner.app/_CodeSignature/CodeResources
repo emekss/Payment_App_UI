@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		ggNX6A/lqQxGGobAt2ArulGrXgk=
+		Pu0qLvrEo+6bJxHyky9ftNqgQX4=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		l2nXZNt5/8qOl8WZ50pNorNokI4=
+		op6OK6s3AmkWoymWj1dZOFJ81VA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		eHlRbeXOen/r379diatul+QiILI=
+		TkRfNbg+3PRSPmou+UC6FOUXJYY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		4LzPbYOIxYow9G2KVYTtx70hr8w=
+		i551pg3E4JI3b1sA4sdq7hTdYOk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -80,9 +80,33 @@
 		<data>
 		6yhN82wHOVsBR0dvyhsB+yeYUn0=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/online.png</key>
+		<data>
+		LkxeFzqJlylLvIIS2Gs9zGj9OEQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/pcard.png</key>
+		<data>
+		efDKq8BsdfIjTx39xFJp1so+J78=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/slack_icon.png</key>
+		<data>
+		4UY+kXtCaxarurxYJ1sXjNoJSmo=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/spotify_icon.png</key>
+		<data>
+		1MgPxNrINJ16/ohs6XOSShVZGOk=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/user.png</key>
 		<data>
 		YLC34Rg6gw0wmn00uWxNXvhw7FQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/utility.png</key>
+		<data>
+		WLXEwJPNJCJ2FIm7lLZywI1IdhI=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/youtube_icon.png</key>
+		<data>
+		26gYwYszNtuMw0/wSgekDh/0irw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -94,7 +118,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		x1HjxYzb6dHgzG4dbSkvCAX5/Yk=
+		zko3nXnaT+PdWIXljXZlrKRqCeg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -301,7 +325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOdVY2BBxQb2JizlVm3AsI9yLw7TnP3VxR3Spn08Igc=
+			uhf8tBZ6/HLqXtdRY0YiHjRc0jc8yaSGgYDE8NdcvvU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -315,21 +339,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vIkt2OX5gME/XGy/zZRfG6iwj2zxuPzcFBOFcDOeK/E=
+			3nsykvIprzytDCIzjdBfw9G6LkHIwSEfjCjISh0pd/8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mxyzCiQNRQuOUf4HM0njR8doJiuyZwh7cJjAli3ICME=
+			TR4ngLNa2TOg2XtM2Q/Jf7rpMoNT8KaR+1BsJ0BPF7Q=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uBYkexPCRVvhhyqN3c1CuoqbaV0SstiNx76Yk0ylz/g=
+			wqveqz8GM3fgQ+TFFOF6Gwj52dv7Hclv7TrGCOgvrE0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -360,11 +384,53 @@
 			5xJIfrP/GxxpcKHriyHnkl491BQA17mvxWkj2Bguzgo=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/online.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ocla9iXdbUrNUzaMSsn8Us/uWPl19xDtkhoBD522e3w=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/pcard.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tcsjdb8d5XkcZHB4z8uSPvFYz+rQsrnsRoc/v3Tl5Oc=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/slack_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rC/2B71eQQAziN6IgQ0x9uB4AbvFl2ISrBGpFngkA84=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/spotify_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xdpH4gCtoGIvhndPeFeoJjkPCPxUz2QFr3hG+6YswCY=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/user.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Ch9McN8m/sam4+7RukvN2n/Kv1ka7qEQ+3fqhm1l3ZA=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/utility.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YqsLCaSf7PJEwABO8f8JGTzg8GOdoMjmSjmTmOgrMUA=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/youtube_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UfVElYG4li858OEQMBEYItKMDxWduLf6Oii577I2xgY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -385,7 +451,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OW/Z3I/if/TBPPXi0zBM/8GKILZEIgYZoucAeUvwky0=
+			ctk2Tx5BBcExETKPIMitLhzqSiSsScJH3kyoatM+sSw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
