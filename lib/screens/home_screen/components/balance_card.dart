@@ -10,7 +10,7 @@ class BalanceCard extends StatelessWidget {
       children: [
         Container(
           height: 155,
-          width: 364,
+          width: 374,
           decoration: const BoxDecoration(
             color: Color.fromARGB(255, 58, 136, 255),
             borderRadius: BorderRadius.only(
@@ -46,7 +46,7 @@ class BalanceCard extends StatelessWidget {
         ),
         Container(
           height: 67,
-          width: 364,
+          width: 374,
           decoration: const BoxDecoration(
             color: Color.fromARGB(255, 1, 32, 72),
             borderRadius: BorderRadius.only(
