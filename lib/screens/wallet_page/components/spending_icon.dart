@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class TransactionIcon extends StatelessWidget {
-  final String image;
-  const TransactionIcon({
+class SpendingIcon extends StatelessWidget {
+  final IconData icon;
+  const SpendingIcon({
     super.key,
-    required this.image,
+    required this.icon,
   });
 
   @override
@@ -19,7 +19,10 @@ class TransactionIcon extends StatelessWidget {
           shape: BoxShape.circle,
           color: Color.fromARGB(255, 247, 247, 247),
         ),
-        child: Image.asset(image),
+        child: Icon(
+          icon,
+          color: const Color.fromARGB(255, 1, 32, 72),
+        ),
       ),
     );
   }
