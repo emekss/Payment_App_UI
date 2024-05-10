@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:payment_app_ui/screens/home_screen/components/balance_card.dart';
 import 'package:payment_app_ui/screens/home_screen/components/transaction_card.dart';
+import 'package:payment_app_ui/screens/home_screen/utils/custom_navbar.dart';
 
 import 'components/transaction_column.dart';
 import 'components/user_row.dart';
@@ -76,6 +77,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: const CustomNavBar(),
     );
   }
 }

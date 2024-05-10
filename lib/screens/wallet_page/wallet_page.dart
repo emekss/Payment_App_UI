@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:payment_app_ui/screens/home_screen/utils/custom_navbar.dart';
 import 'package:payment_app_ui/screens/wallet_page/components/spending_row.dart';
 
 import 'components/indicator.dart';
@@ -24,33 +25,37 @@ class WalletScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 200),
-            const SpendingRow(),
-            const SizedBox(height: 20),
-            const Indicator(),
-            const SizedBox(height: 10),
-            Row(
+            Column(
               children: [
-                Text(
-                  'You can change the limit at any time',
-                  style: GoogleFonts.roboto(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w400,
-                    color: const Color.fromARGB(255, 103, 121, 145),
-                  ),
+                const SpendingRow(),
+                const SizedBox(height: 20),
+                const Indicator(),
+                const SizedBox(height: 20),
+                Row(
+                  children: [
+                    Text(
+                      'You can change the limit at any time',
+                      style: GoogleFonts.roboto(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400,
+                        color: const Color.fromARGB(255, 103, 121, 145),
+                      ),
+                    ),
+                    Text(
+                      ' change Limit',
+                      style: GoogleFonts.roboto(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400,
+                        color: const Color.fromARGB(255, 58, 136, 255),
+                      ),
+                    )
+                  ],
                 ),
-                Text(
-                  ' change Limit',
-                  style: GoogleFonts.roboto(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w400,
-                    color: const Color.fromARGB(255, 58, 136, 255),
-                  ),
-                )
+                const SizedBox(height: 10),
+                const Divider(),
+                const SizedBox(height: 20),
               ],
             ),
-            const SizedBox(height: 10),
-            const Divider(),
-            const SizedBox(height: 20),
             Text(
               'Feature',
               style: GoogleFonts.roboto(
@@ -59,24 +64,29 @@ class WalletScreen extends StatelessWidget {
                 color: const Color.fromARGB(255, 11, 40, 80),
               ),
             ),
-            const SpendingColumn(
-              label: 'Spotify',
-              amount: '30,000 USD',
-              image: 'assets/images/spotify_icon.png',
-            ),
-            const SpendingColumn(
-              label: 'Stack',
-              amount: '20,000 USD',
-              image: 'assets/images/slack_icon.png',
-            ),
-            const SpendingColumn(
-              label: 'Youtube',
-              amount: '10,000 USD',
-              image: 'assets/images/youtube_icon.png',
+            const Column(
+              children: [
+                SpendingColumn(
+                  label: 'Spotify',
+                  amount: '30,000 USD',
+                  image: 'assets/images/spotify_icon.png',
+                ),
+                SpendingColumn(
+                  label: 'Stack',
+                  amount: '20,000 USD',
+                  image: 'assets/images/slack_icon.png',
+                ),
+                SpendingColumn(
+                  label: 'Youtube',
+                  amount: '10,000 USD',
+                  image: 'assets/images/youtube_icon.png',
+                ),
+              ],
             ),
           ],
         ),
       ),
+      bottomNavigationBar: const CustomNavBar(),
     );
   }
 }
