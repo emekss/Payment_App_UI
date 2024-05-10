@@ -6,9 +6,14 @@ import 'package:payment_app_ui/screens/wallet_page/components/spending_row.dart'
 import 'components/indicator.dart';
 import 'components/spending_column.dart';
 
-class WalletScreen extends StatelessWidget {
+class WalletScreen extends StatefulWidget {
   const WalletScreen({super.key});
 
+  @override
+  State<WalletScreen> createState() => _WalletScreenState();
+}
+
+class _WalletScreenState extends State<WalletScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

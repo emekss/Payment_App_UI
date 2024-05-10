@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class CustomNavBar extends StatelessWidget {
+class CustomNavBar extends StatefulWidget {
   const CustomNavBar({super.key});
 
+  @override
+  State<CustomNavBar> createState() => _CustomNavBarState();
+}
+
+class _CustomNavBarState extends State<CustomNavBar> {
+  @override
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
