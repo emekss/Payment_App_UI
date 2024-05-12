@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:payment_app_ui/screens/home_screen/home_screen.dart';
 import 'package:payment_app_ui/screens/onboard_screen/onboard_screen.dart';
-import 'package:payment_app_ui/screens/wallet_page/wallet_page.dart';
 
 void main() {
   runApp(const MyApp());
