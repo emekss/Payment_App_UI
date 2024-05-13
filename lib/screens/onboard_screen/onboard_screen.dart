@@ -12,7 +12,11 @@ class OnBoardScreen extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 1, 32, 72),
       body: Stack(
         children: [
-          Image.asset('assets/images/iphone.png'),
+          Positioned(
+            top: 150,
+            left: 20,
+            child: Image.asset('assets/images/iphone.png'),
+          ),
           const Align(
             alignment: Alignment.bottomCenter,
             child: UserLoginContainer(),
